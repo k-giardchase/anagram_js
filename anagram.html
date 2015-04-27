@@ -7,28 +7,31 @@
     <script src='js/scripts.js'></script>
 </head>
 <body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <form role="form" id="anagram_form">
+          <div class="form-group">
+              <label for="original_word">Enter word to compare: </label>
+              <input name="original_word" id="original_word" type="text" placeholder="coffee"></input>
+          </div>
+          <div class="form-group">
+              <label for="comparison_words">Enter comparison words: </label>
+              <input name="comparison_words" id="comparison_words" type="text" placeholder="toffee"></input>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-primary btn-xs">Click</button>
+          </div>
+        </form>
+        <div class="results">
+          <h4>For the comparison word: <span id="comparison_word"></span></h4>
+          <h2>Here are the matches :</h2>
+          <ul class="anagram_outputs">
 
-    <div class = "container">
-                <form role="form" id="anagram_form">
-                    <div class="form-group">
-                        <label for="original_word">Enter word to compare: </label>
-                        <input name="original_word" id="original_word" type="text" placeholder="coffee"></input>
-                    </div>
-                    <div class="form-group">
-                        <label for="comparison_words">Enter comparison words: </label>
-                        <input name="comparison_words" id="comparison_words" type="text" placeholder="toffee"></input>
-                    </div>
-                <button class="btn btn-primary btn-xs">Click</button>
-                </form>
-
-                <div class="results">
-                    <h4>For the comparison word: <span id="comparison_word"></span></h4>
-                    <h2>Here are the matches :</h2>
-                    <ul class="anagram_outputs">
-
-                    </ul>
-                </div>
+          </ul>
+        </div>
+      </div>
     </div>
-
+  </div>
 </body>
 </html>
