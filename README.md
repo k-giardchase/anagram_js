@@ -5,7 +5,7 @@ Kyle Giard-Chase & David Eliason
 March 29 2015
 
 ##Description
-An app that calculates the correct amount of a change for a purchase.
+An app that determines which words out of a list of possible words are anagrams of an word.
 
 ##Technologies Used
 Javascript <br>
